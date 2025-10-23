@@ -18,26 +18,28 @@ This project analyzes Superstore sales data to uncover performance trends, profi
 View the live Tableau dashboard here:  
 🔗 [Superstore Dashboard](https://public.tableau.com/views/SuperstoreSalesAnalysisDash/SuperstoreSalesAnalysis)
 
-### 📁 Folder Structure
+### Folder Structure
+
 Project-1-sql-tableau/
-├──📁data
-├──├──superstore.csv
-├──├──📁processed
-├──├──├──customers.csv
-├──├──├──order_summary.csv
-├──├──├──order_summary_cleaned.csv
-├──├──├──orders.csv
-├──├──├──products.csv
-├──├──├──superstore_cleaned.csv
-├──📁Python
-├──├──superstore_python_code.ipynb
-├──📁SQL
-├──├──create_view.sql
-├──├──queries.sql
-├──├──schema.sql
-├──├──superstore_sql_db.db
-├──📁Tableau
-├──├──Superstore Sales Analysis Dash.twbx
-├──├──📁dashboard_screenshots
-├──├──├──Dashboard_Screenshot.png
-└── README.md → documentation
+- data/
+  - superstore.csv                # Original dataset
+  - processed/                    # Cleaned / processed CSVs
+    - customers.csv
+    - order_summary.csv
+    - order_summary_cleaned.csv
+    - orders.csv
+    - products.csv
+    - superstore_cleaned.csv
+- python/
+  - superstore_python_code.ipynb  # Data cleaning and preprocessing
+- sql/
+  - create_view.sql                # CREATE VIEW statements
+  - queries.sql                    # SQL queries for KPIs
+  - schema.sql                     # CREATE TABLE statements
+  - superstore_sql_db.db           # SQLite database file
+- tableau/
+  - Superstore Sales Analysis Dash.twbx  # Tableau workbook
+  - dashboard_screenshots/
+    - Dashboard_Screenshot.png
+- README.md                        # Project documentation
+
